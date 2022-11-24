@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Qatar-Copa';
+    src: url('font/Qatar2022-Bold.otf') format('truetype');
+    src: url('font/Qatar2022-Heavy.otf') format('truetype');
+    src: url('font/Qatar2022-Medium.otf') format('truetype');
+    src: url('font/Qatar2022Arabic-Bold.otf') format('truetype');
+    src: url('font/Qatar2022Arabic-Heavy.otf') format('truetype');
+    src: url('font/Qatar2022Arabic-Medium.otf') format('truetype');
+}
+
+:root {
+    --principal: #8C0A30;
+    --secundaria: #3F0116;
+    --tom-secundario-forte: #B09677; 
+    --tom-secundario-fraco: #E1C396;
+    --verde: #63A194;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Qatar-Copa';
+}
+
+.areadeespera {
+    background: url(img/sobreacopa.jpg);
+    height: 500px;
+}
+
+.areadeespera > h3 {
+    background-color: rgba(255, 255, 255, 0.863);
+    height: 100%;
+    color: var(--principal);
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selecionar-data {
+    background-color: #63a19357;
+    color: white;
+}
+
+.selecionar-data > .subtitulo {
+    margin: 0px;
+    padding: 30px 0px;
+}
+
+.selecionar-data h3 {
+    background: linear-gradient(to right, #3F0116, #8C0A30);
+    padding: 20px;
+}
+
+.datas {
+    background: linear-gradient(to right, #3F0116, #8C0A30);
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.datas > p {
+    border: 1px solid var(--tom-secundario-fraco);
+    min-width: 100px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.datas > p:hover {
+    background-color: #e1c39650;
+}
+
+.calendario {
+    background-color: #63a19357;
+}
+
+.dia {
+    padding: 20px 0px 100px;
+    display: none;
+}
+
+/* .dia > h1 {
+    text-align: center;
+    padding: 30px;
+} */
+
+.data {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background: linear-gradient(to right, #3F0116, #8C0A30);
+    gap: 20px;
+}
+
+.data > h3 {
+    color: white;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 1.4em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    gap: 20px;
+}
+
+.jogo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    border: 1px solid var(--tom-secundario-fraco);
+    gap: 20px;
+    align-items: flex-end;
+    color: white;
+}
+
+.selecao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.selecao h3 {
+    font-weight: 300;
+}
+
+.selecao img {
+    width: 150px;
+    height: 100px;
+    border: 1px solid var(--tom-secundario-fraco);
+}
+

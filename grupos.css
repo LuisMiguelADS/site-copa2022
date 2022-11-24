@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Qatar-Copa';
+    src: url('font/Qatar2022-Bold.otf') format('truetype');
+    src: url('font/Qatar2022-Heavy.otf') format('truetype');
+    src: url('font/Qatar2022-Medium.otf') format('truetype');
+    src: url('font/Qatar2022Arabic-Bold.otf') format('truetype');
+    src: url('font/Qatar2022Arabic-Heavy.otf') format('truetype');
+    src: url('font/Qatar2022Arabic-Medium.otf') format('truetype');
+}
+
+:root {
+    --principal: #8C0A30;
+    --secundaria: #3F0116;
+    --tom-secundario-forte: #B09677; 
+    --tom-secundario-fraco: #E1C396;
+    --verde: #63A194;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Qatar-Copa';
+}
+
+.participantes {
+    background: linear-gradient(to right, #3F0116, #8C0A30);
+    color: white;
+}
+
+.subtitulo {
+   margin: 0px;
+   padding: 30px;
+}
+
+.grupos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--tom-secundario-fraco);
+    width: 220px;
+    padding: 10px;
+    gap: 5px;
+}
+
+.grupo > h3 {
+    text-align: center;
+}
+
+.item-grupo {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 20px;
+    border: 1px solid var(--tom-secundario-fraco);
+}
+
+.item-grupo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 70%;
+    border: 1px solid var(--tom-secundario-fraco);
+}
+

@@ -1,0 +1,968 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Qatar-Copa';
+    src: url('font/Qatar2022-Bold.otf') format('truetype');
+    src: url('font/Qatar2022-Heavy.otf') format('truetype');
+    src: url('font/Qatar2022-Medium.otf') format('truetype');
+    src: url('font/Qatar2022Arabic-Bold.otf') format('truetype');
+    src: url('font/Qatar2022Arabic-Heavy.otf') format('truetype');
+    src: url('font/Qatar2022Arabic-Medium.otf') format('truetype');
+}
+
+:root {
+    --principal: #8C0A30;
+    --secundaria: #3F0116;
+    --tom-secundario-forte: #B09677; 
+    --tom-secundario-fraco: #E1C396;
+    --verde: #63A194;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Qatar-Copa';
+}
+
+.areadeespera {
+    background: url(img/sobreacopa.jpg);
+    height: 500px;
+}
+
+.areadeespera > h3 {
+    background-color: rgba(255, 255, 255, 0.863);
+    height: 100%;
+    color: var(--principal);
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selecionar-opcao {
+    background-color: #63a19357;
+    color: white;
+    border-bottom: 5px solid var(--tom-secundario-fraco);
+}
+
+.selecionar-opcao > .subtitulo {
+    margin: 0px;
+    padding: 30px 0px;
+}
+
+.selecionar-opcao h3 {
+    background: linear-gradient(to right, #3F0116, #8C0A30);
+    padding: 20px;
+}
+
+.opcoes {
+    background: linear-gradient(to right, #3F0116, #8C0A30);
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: white;
+}
+
+.opcoes > p {
+    border: 1px solid var(--tom-secundario-fraco);
+    min-width: 220px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.opcoes > p:hover {
+    background-color: #e1c39650;
+}
+
+.estatisticas-grupos {
+    background: linear-gradient(to right, #3F0116, #8C0A30);
+    color: white;
+}
+
+.grupo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.header-grupo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.especificacoes {
+    display: flex;
+    padding: 0px 3px;
+}
+
+.especificacoes > h4 {
+    padding-left: 30px;
+    letter-spacing: 0.5px;
+}
+
+.especificacoes > h4:nth-child(9) {
+    margin: 0px 25px 0px 5px;
+}
+
+.item-grupo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-nome {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.3em;
+}
+
+.especificacoes-selecao {
+    display: flex;
+    padding: 0px 2px;
+}
+
+.especificacoes-selecao > h4:nth-child(2) {
+    padding-left: 34px;
+}
+
+.especificacoes-selecao > h4:nth-child(3) {
+    padding-left: 37px;
+}
+
+.especificacoes-selecao > h4:nth-child(4) {
+    padding-left: 32px;
+}
+
+.especificacoes-selecao > h4:nth-child(5) {
+    padding-left: 36px;
+}
+
+.especificacoes-selecao > h4:nth-child(6) {
+    padding-left: 44px;
+}
+
+.especificacoes-selecao > h4:nth-child(7) {
+    padding-left: 37px;
+}
+
+.especificacoes-selecao > h4:nth-child(8) {
+    padding-left: 29px;
+}
+
+.ultimas-5 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 5px;
+    margin-left: 20px;
+}
+
+.circulo {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+
+/* Últimas Partidas */
+
+/* GRUPO A -------------------------------------------- */
+
+/* CATAR ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* EQUADOR ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+/* SENEGAL ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* HOLANDA ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* GRUPO B -------------------------------------------- */
+
+/* INGLATERRA ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* IRÃ ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* ESTADOS UNIDOS ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* PAÍS DE GALES ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+/* GRUPO C -------------------------------------------- */
+
+/* ARGENTINA ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* ARÁBIA SAUDITA ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* MÉXICO ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* POLÔNIA ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}x
+
+/* GRUPO D -------------------------------------------- */
+
+/* FRNÇA ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* DINAMARCA ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* TUNÍSIA ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* AUSTRÁLIA ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+/* GRUPO E -------------------------------------------- */
+
+/* ESPANHA ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* ALEMANHA ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* JAPÃO ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* COSTA RICA ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* GRUPO F -------------------------------------------- */
+
+/* BÉLGICA ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* CANADÁ ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* MARROCOS ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* CROÁCIA ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* GRUPO G -------------------------------------------- */
+
+/* BRASIL ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* SÉRVIA ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* SUÍÇA ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* CAMARÕES ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* GRUPO H -------------------------------------------- */
+
+/* PORTUGAL ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* GANA ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* URUGUAI ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* COREIA DO SUL ---------------- */
+
+.circulo-catar:nth-child(1) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(2) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(3) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(4) {
+    background-color: x;
+}
+
+.circulo-catar:nth-child(5) {
+    background-color: x;
+}
+
+/* Artilharia ------------------------------------------------------------------------ */
+
+.estatisticas-individuais {
+    background: linear-gradient(to right, #3F0116, #8C0A30);
+    color: white;
+}
+
+.artilharia {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    display: none;
+}
+
+.jogador {
+    border: 1px solid var(--tom-secundario-fraco);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.posicao-img-nome {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.posicao-img-nome > img {
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid var(--tom-secundario-fraco);
+}
+
+.nome-nacionalidade {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    gap: 5px;
+}
+
+.img-pais {
+    display: flex;
+    gap: 10px;
+    font-size: 0.7em;
+    font-weight: 3;
+}
+
+.img-pais img{
+    height: 15px;
+    border: 1px solid var(--tom-secundario-fraco);
+}
+
+.assistencias {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    display: none;
+}
+
+.cartao-amarelo {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    display: none;
+}

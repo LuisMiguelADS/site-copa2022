@@ -1,0 +1,203 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Qatar-Copa';
+    src: url('font/Qatar2022-Bold.otf') format('truetype');
+    src: url('font/Qatar2022-Heavy.otf') format('truetype');
+    src: url('font/Qatar2022-Medium.otf') format('truetype');
+    src: url('font/Qatar2022Arabic-Bold.otf') format('truetype');
+    src: url('font/Qatar2022Arabic-Heavy.otf') format('truetype');
+    src: url('font/Qatar2022Arabic-Medium.otf') format('truetype');
+  }
+
+:root {
+    --principal: #8C0A30;
+    --secundaria: #3F0116;
+    --tom-secundario-forte: #B09677; 
+    --tom-secundario-fraco: #E1C396;
+    --verde: #63A194;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Qatar-Copa';
+}
+
+/* Parte do cabeçalho */
+
+header {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(to right, #3F0116, #8C0A30);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 40px; 
+    border-bottom: 10px solid var(--tom-secundario-forte);
+}
+
+.cabecalho img {
+    width: 150px;
+}
+
+.menu {
+    display: flex;
+}
+
+.item-menu {
+    color: white;
+    font-size: 1.3em;
+    margin-left: 60px;
+}
+
+/* Seção sobre a copa */
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.sobreacopa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px 50px;
+    background-color: #EEEEE4;
+}
+
+.sobreacopa h1 {
+    align-self: flex-start;
+    text-indent: 20px;
+    color: var(--principal);
+    font-size: 2.5em;
+    padding: 0px 0px 20px;
+}
+
+.sobreacopa p {
+    align-self: flex-start;
+    text-indent: 20px;
+    text-align: justify;
+    color: var(--secundaria);
+    padding: 0px 5px;
+    font-size: 1.1em;
+}
+
+.sobreacopa span {
+    align-self: flex-end;
+    padding: 0px 5px 20px;
+}
+
+.sobreacopa > span > a {
+    font-weight: 200;
+    color: #3f0116ab;
+    font-size: 0.8em;
+}
+
+.sobreacopa > img {
+    width: 70%;
+    border: 5px solid var(--tom-secundario-fraco);
+}
+
+.subtitulo {
+    display: flex;
+    background-color: #3f011679;
+    margin: 50px 0px;
+    width: 100%;
+    background: linear-gradient(to right, #3F0116, #8C0A30);
+    color: white;
+    align-items: center;
+}
+
+.subtitulo > img {
+    height: 40px;
+    margin: 5px 20px;
+}
+
+.subtitulo h2 {
+    font-size: 2em;
+    font-weight: 200;
+    text-align: center;
+    width: 100%;
+}
+
+/* .espacovazio {
+    width: 33.33px;
+    height: 40px;
+    padding: 0px 2.37px;
+    margin: 5px 20px;
+} */
+
+.sobreacopa table {
+    background-color: #3F0116;
+    margin: 0px 10px;
+    border: 2px solid var(--tom-secundario-fraco);
+    font-size: 1.2em;
+    font-weight: 200;
+    width: 50%;
+}
+
+.sobreacopa > table th {
+    background-color: var(--principal);
+    color: white;
+    padding: 10px;
+    border: 2px solid var(--tom-secundario-forte);
+    font-weight: 200;
+    width: 50%;
+}
+
+.sobreacopa > table td {
+    background-color: var(--verde);
+    color: white;
+    padding: 10px;
+    border: 2px solid var(--tom-secundario-forte);
+    text-align: center;
+}
+
+/* Parte do Rodape */
+
+footer {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.rodape {
+    background: linear-gradient(to right, #3F0116, #8C0A30);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+    border-top: 10px solid var(--tom-secundario-forte);
+}
+
+.maisdacopa {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    min-width: 260px;
+}
+
+.maisdacopa h3 {
+    color: var(--tom-secundario-fraco);
+    font-weight: 200;
+}
+
+.maisdacopa a {
+    color: white;
+}
+
+.direitos {
+    background-color: var(--tom-secundario-forte);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+

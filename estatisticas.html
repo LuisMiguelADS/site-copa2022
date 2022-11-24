@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grupos.css">
+    <link rel="stylesheet" href="estatisticas.css">
+    <title>Estatísticas</title>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <a href="index.html"><img src="img/logo-copa.png" alt="Logo da Copa do Mundo 2022"></a>
+            <nav class="menu">
+                <a href="calendario.html" class="item-menu">Calendário</a>
+                <a href="equipes.html" class="item-menu">Equipes</a>
+                <a href="grupos.html" class="item-menu">Grupos</a>
+                <a href="estatisticas.html" class="item-menu">Estatísticas</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="selecionar-opcao">
+            <div class="subtitulo">
+                <img src="img/logo-menor.png" alt="">
+                <h2>Calendário da Copa do Mundo 2022</h2>
+                <img src="img/logo-menor.png" alt="">
+            </div>
+            <h3>Selecione uma opção</h3>
+            <div class="opcoes">
+                <p onclick="visivel_grupo()">GRUPOS</p>
+                <p onclick="visivel_artilharia()">ARTILHARIA</p>
+                <p onclick="visivel_assistencias()">MAIS ASSISTÊNCIAS</p>
+                <p onclick="visivel_cartoes_amarelos()">CARTÕES AMARELOS</p>
+                <p onclick="visivel_cartoes_vermelhos()">CARTÕES VERMELHOS</p>
+            </div>
+        </div>
+
+        <div class="areadeespera" id="espera">
+            <h3>Selecione uma das opções acima</h3>
+        </div>
+
+        <section class="estatisticas-grupos">
+            <div class="grupos" id="igrupo">
+
+                <!-- Grupo A -->
+
+                <div class="grupo">
+                    <div class="header-grupo">
+                        <h3>Grupo A</h3>
+                        <div class="especificacoes">  
+                            <h4>Pts</h4>
+                            <h4>PJ</h4>
+                            <h4>VIT</h4>
+                            <h4>E</h4>
+                            <h4>DER</h4>
+                            <h4>GM</h4>
+                            <h4>GC</h4>
+                            <h4>SG</h4>
+                            <h4>Últimas 5</h4>
+                        </div>
+                    </div>
+                    <div class="item-grupo grupo-a">
+                        <div class="img-nome">
+                            <img src="img/catar-bandeira.jpg" alt="Bandeira do Catar">
+                            <p>Catar</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo grupo-a">
+                        <div class="img-nome">
+                            <img src="img/equador-imagem.jpg" alt="Bandeira do Equador">
+                            <p>Equador</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo grupo-a">
+                        <div class="img-nome">
+                            <img src="img/senegal-imagem.jpg" alt="Bandeira do Senegal">
+                            <p>Senegal</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo grupo-a">
+                        <div class="img-nome">
+                            <img src="img/holanda-bandeira.jpg" alt="Bandeira da Holanda">
+                            <p>Holanda</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grupo B -->
+
+                <div class="grupo">
+                    <div class="header-grupo">
+                        <h3>Grupo B</h3>
+                        <div class="especificacoes">  
+                            <h4>Pts</h4>
+                            <h4>PJ</h4>
+                            <h4>VIT</h4>
+                            <h4>E</h4>
+                            <h4>DER</h4>
+                            <h4>GM</h4>
+                            <h4>GC</h4>
+                            <h4>SG</h4>
+                            <h4>Últimas 5</h4>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/inglaterra-bandeira.jpg" alt="Bandeira da Inglaterra">
+                            <p>Inglaterra</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/ira-bandeira.jpg" alt="Bandeira do Irã">
+                            <p>Irã</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/eua-bandeira.jpg" alt="Bandeira do Estados Unidos">
+                            <p>Estados Unidos</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/paisdegales-bandeira.jpg" alt="Bandeira do País de Gales">
+                            <p>País de Gales</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+
+                <!-- Grupo C -->
+
+                <div class="grupo">
+                    <div class="header-grupo">
+                        <h3>Grupo C</h3>
+                        <div class="especificacoes">  
+                            <h4>Pts</h4>
+                            <h4>PJ</h4>
+                            <h4>VIT</h4>
+                            <h4>E</h4>
+                            <h4>DER</h4>
+                            <h4>GM</h4>
+                            <h4>GC</h4>
+                            <h4>SG</h4>
+                            <h4>Últimas 5</h4>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/argentina-bandeira.jpg" alt="Bandeira da Argentina">
+                            <p>Argentina</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/arabiasaudita-bandeira.jpg" alt="Bandeira da Arábia Saudita">
+                            <p>Arábia Saudita</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/mexico-bandeira.jpg" alt="Bandeira do México">
+                            <p>México</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/polonia-bandeira.jpg" alt="Bandeira da Polônia">
+                            <p>Polônia</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grupo D -->
+
+                <div class="grupo">
+                    <div class="header-grupo">
+                        <h3>Grupo D</h3>
+                        <div class="especificacoes">  
+                            <h4>Pts</h4>
+                            <h4>PJ</h4>
+                            <h4>VIT</h4>
+                            <h4>E</h4>
+                            <h4>DER</h4>
+                            <h4>GM</h4>
+                            <h4>GC</h4>
+                            <h4>SG</h4>
+                            <h4>Últimas 5</h4>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/franca-bandeira.jpg" alt="Bandeira da França">
+                            <p>França</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/dinamarca-bandeira.jpg" alt="Bandeira da Dinamarca">
+                            <p>Dinamarca</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/tunisia-bandeira.jpg" alt="Bandeira da Tunísia">
+                            <p>Tunísia</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/australia-bandeira.jpg" alt="Bandeira da Austrália">
+                            <p>Austrália</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grupo E -->
+
+                <div class="grupo">
+                    <div class="header-grupo">
+                        <h3>Grupo E</h3>
+                        <div class="especificacoes">  
+                            <h4>Pts</h4>
+                            <h4>PJ</h4>
+                            <h4>VIT</h4>
+                            <h4>E</h4>
+                            <h4>DER</h4>
+                            <h4>GM</h4>
+                            <h4>GC</h4>
+                            <h4>SG</h4>
+                            <h4>Últimas 5</h4>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/espanha-bandeira.jpg" alt="Bandeira da Espanha">
+                            <p>Espanha</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/alemanha-bandeira.jpg" alt="Bandeira da Alemanha">
+                            <p>Alemanha</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/japao-bandeira.jpg" alt="Bandeira do Japão">
+                            <p>Japão</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/costarica-bandeira.jpg" alt="Bandeira da Costa Rica">
+                            <p>Costa Rica</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grupo F -->
+
+                <div class="grupo">
+                    <div class="header-grupo">
+                        <h3>Grupo F</h3>
+                        <div class="especificacoes">  
+                            <h4>Pts</h4>
+                            <h4>PJ</h4>
+                            <h4>VIT</h4>
+                            <h4>E</h4>
+                            <h4>DER</h4>
+                            <h4>GM</h4>
+                            <h4>GC</h4>
+                            <h4>SG</h4>
+                            <h4>Últimas 5</h4>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/belgica-bandeira.jpg" alt="Bandeira da Bélgica">
+                            <p>Bélgica</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/canada-bandeira.jpg" alt="Bandeira do Canadá">
+                            <p>Canadá</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/marrocos-bandeira.jpg" alt="Bandeira do Marrocos">
+                            <p>Marrocos</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/croacia-bandeira.jpg" alt="Bandeira da Croácia">
+                            <p>Croácia</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grupo G -->
+
+                <div class="grupo">
+                    <div class="header-grupo">
+                        <h3>Grupo G</h3>
+                        <div class="especificacoes">  
+                            <h4>Pts</h4>
+                            <h4>PJ</h4>
+                            <h4>VIT</h4>
+                            <h4>E</h4>
+                            <h4>DER</h4>
+                            <h4>GM</h4>
+                            <h4>GC</h4>
+                            <h4>SG</h4>
+                            <h4>Últimas 5</h4>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/brasil-bandeira.jpg" alt="Bandeira do Brasil">
+                            <p>Brasil</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/servia-bandeira.jpg" alt="Bandeira da Sérvia">
+                            <p>Sérvia</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/suica-bandeira.jpg" alt="Bandeira da Suíça">
+                            <p>Suíça</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/camaroes-bandeira.jpg" alt="Bandeira do Camarões">
+                            <p>Camarões</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grupo H -->
+
+                <div class="grupo">
+                    <div class="header-grupo">
+                        <h3>Grupo H</h3>
+                        <div class="especificacoes">  
+                            <h4>Pts</h4>
+                            <h4>PJ</h4>
+                            <h4>VIT</h4>
+                            <h4>E</h4>
+                            <h4>DER</h4>
+                            <h4>GM</h4>
+                            <h4>GC</h4>
+                            <h4>SG</h4>
+                            <h4>Últimas 5</h4>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/portugal-bandeira.jpg" alt="Bandeira do Portugal">
+                            <p>Portugal</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/gana-bandeira.jpg" alt="Bandeira da Gana">
+                            <p>Gana</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/uruguai-bandeira.jpg" alt="Bandeira do Uruguai">
+                            <p>Uruguai</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-grupo">
+                        <div class="img-nome">
+                            <img src="img/coreia-bandeira.jpg" alt="Bandeira da Coreia do Sul">
+                            <p>Coreia do Sul</p>
+                        </div>
+                        <div class="especificacoes-selecao">  
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>10</h4>
+                            <h4>-10</h4>
+                            <div class="ultimas-5">
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                                <div class="circulo circulo-catar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="estatisticas-individuais">
+            <div class="artilharia" id="artilharia">
+                <div class="subtitulo">
+                    <img src="img/logo-menor.png" alt="">
+                    <h2>Artilheiros</h2>
+                    <img src="img/logo-menor.png" alt="">
+                </div>
+                <div class="jogador">
+                    <div class="posicao-img-nome">
+                        <h2>1°</h2>
+                        <img src="img/bukayo-saka.jfif" alt="">
+                        <div class="nome-nacionalidade">
+                            <p>Bukayo Saka</p>
+                            <div class="img-pais">
+                                <img src="img/inglaterra-bandeira.jpg" alt="">
+                                <p>Inglaterra</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>2</h2>
+                </div>
+                <div class="jogador">
+                    <div class="posicao-img-nome">
+                        <h2>1°</h2>
+                        <img src="img/enner-valencia.jfif" alt="">
+                        <div class="nome-nacionalidade">
+                            <p>Enner Valencia</p>
+                            <div class="img-pais">
+                                <img src="img/equador-imagem.jpg" alt="">
+                                <p>Equador</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>2</h2>
+                </div>
+                <div class="jogador">
+                    <div class="posicao-img-nome">
+                        <h2>1°</h2>
+                        <img src="img/ferran-torres.jfif" alt="">
+                        <div class="nome-nacionalidade">
+                            <p>Ferran Torres</p>
+                            <div class="img-pais">
+                                <img src="img/espanha-bandeira.jpg" alt="">
+                                <p>Espanha</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>2</h2>
+                </div>
+                <div class="jogador">
+                    <div class="posicao-img-nome">
+                        <h2>1°</h2>
+                        <img src="img/mehdi-taremi.jfif" alt="">
+                        <div class="nome-nacionalidade">
+                            <p>Mehdi Taremi</p>
+                            <div class="img-pais">
+                                <img src="img/ira-bandeira.jpg" alt="">
+                                <p>Irã</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>2</h2>
+                </div>
+                <div class="jogador">
+                    <div class="posicao-img-nome">
+                        <h2>1°</h2>
+                        <img src="img/olivier-giroud.jfif" alt="">
+                        <div class="nome-nacionalidade">
+                            <p>Olivier Giroud</p>
+                            <div class="img-pais">
+                                <img src="img/franca-bandeira.jpg" alt="">
+                                <p>França</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>2</h2>
+                </div>
+            </div>
+            
+
+            <div class="assistencias" id="assistencias">
+                <div class="subtitulo">
+                    <img src="img/logo-menor.png" alt="">
+                    <h2>Mais assistências</h2>
+                    <img src="img/logo-menor.png" alt="">
+                </div>
+                <div class="jogador">
+                    <div class="posicao-img-nome">
+                        <h2>1°</h2>
+                        <img src="img/harry-kane.jfif" alt="">
+                        <div class="nome-nacionalidade">
+                            <p>Harry Kane</p>
+                            <div class="img-pais">
+                                <img src="img/inglaterra-bandeira.jpg" alt="">
+                                <p>Inglaterra</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>2</h2>
+                </div>
+                <div class="jogador">
+                    <div class="posicao-img-nome">
+                        <h2>2°</h2>
+                        <img src="img/ali-gholizadeh.jfif" alt="">
+                        <div class="nome-nacionalidade">
+                            <p>Ali Gholizadeh</p>
+                            <div class="img-pais">
+                                <img src="img/ira-bandeira.jpg" alt="">
+                                <p>Irã</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>1</h2>
+                </div>
+                <div class="jogador">
+                    <div class="posicao-img-nome">
+                        <h2>2°</h2>
+                        <img src="img/angelo-preciado.jfif" alt="">
+                        <div class="nome-nacionalidade">
+                            <p>Ángelo Preciado</p>
+                            <div class="img-pais">
+                                <img src="img/equador-imagem.jpg" alt="">
+                                <p>Equador</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>1</h2>
+                </div>
+                <div class="jogador">
+                    <div class="posicao-img-nome">
+                        <h2>2°</h2>
+                        <img src="img/callum-wilson.jfif" alt="">
+                        <div class="nome-nacionalidade">
+                            <p>Callum Wilson</p>
+                            <div class="img-pais">
+                                <img src="img/inglaterra-bandeira.jpg" alt="">
+                                <p>Inglaterra</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>1</h2>
+                </div>
+                <div class="jogador">
+                    <div class="posicao-img-nome">
+                        <h2>2°</h2>
+                        <img src="img/christian-pulisic.jfif" alt="">
+                        <div class="nome-nacionalidade">
+                            <p>Christian Pulisic</p>
+                            <div class="img-pais">
+                                <img src="img/eua-bandeira.jpg" alt="">
+                                <p>Estados Unidos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>1</h2>
+                </div>
+            </div>
+
+
+            <div class="cartao-amarelo" id="cartao-amarelo">
+                <div class="subtitulo">
+                    <img src="img/logo-menor.png" alt="">
+                    <h2>Cartões Amarelos</h2>
+                    <img src="img/logo-menor.png" alt="">
+                </div>
+                <div class="jogador">
+                    <div class="posicao-img-nome">
+                        <h2>1°</h2>
+                        <img src="img/ali-al-bulaihi.jfif" alt="">
+                        <div class="nome-nacionalidade">
+                            <p>Ali Al-Bulaihi</p>
+                            <div class="img-pais">
+                                <img src="img//arabiasaudita-bandeira.jpg" alt="">
+                                <p>Arábia Saudita</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>1</h2>
+                </div>
+                <div class="jogador">
+                    <div class="posicao-img-nome">
+                        <h2>1°</h2>
+                        <img src="img/alireza-jahanbakhsh.jfif" alt="">
+                        <div class="nome-nacionalidade">
+                            <p>Alireza Jahanbakhsh</p>
+                            <div class="img-pais">
+                                <img src="img/ira-bandeira.jpg" alt="">
+                                <p>Irã</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>1</h2>
+                </div>
+                <div class="jogador">
+                    <div class="posicao-img-nome">
+                        <h2>1°</h2>
+                        <img src="img/amadou-mvom-onana.jfif" alt="">
+                        <div class="nome-nacionalidade">
+                            <p>Amadou Mvom Onana</p>
+                            <div class="img-pais">
+                                <img src="img/belgica-bandeira.jpg" alt="">
+                                <p>Bélgica</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>1</h2>
+                </div>
+                <div class="jogador">
+                    <div class="posicao-img-nome">
+                        <h2>1°</h2>
+                        <img src="img/francisco-calvo.jfif" alt="">
+                        <div class="nome-nacionalidade">
+                            <p>Francisco Calvo</p>
+                            <div class="img-pais">
+                                <img src="img/costarica-bandeira.jpg" alt="">
+                                <p>Costa Rica</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>1</h2>
+                </div>
+                <div class="jogador">
+                    <div class="posicao-img-nome">
+                        <h2>1°</h2>
+                        <img src="img/hector-moreno.jfif" alt="">
+                        <div class="nome-nacionalidade">
+                            <p>Héctor Moreno</p>
+                            <div class="img-pais">
+                                <img src="img/mexico-bandeira.jpg" alt="">
+                                <p>México</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>1</h2>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="rodape">
+            <div class="maisdacopa">
+                <h3>Copa do Catar</h3>
+                <a href="#" class="itemmaisdacopa">Saber mais</a>
+                <a href="#" class="itemmaisdacopa">Mais sobre</a>
+                <a href="#" class="itemmaisdacopa">Informações</a>
+                <a href="#" class="itemmaisdacopa">Favoritos</a>
+                <a href="#" class="itemmaisdacopa">Estádios</a>
+            </div>
+            <div class="maisdacopa">
+                <h3>Copa do Mundo 2022</h3>
+                <a href="#" class="itemmaisdacopa">Saber mais</a>
+                <a href="#" class="itemmaisdacopa">Mais sobre</a>
+                <a href="#" class="itemmaisdacopa">Informações</a>
+                <a href="#" class="itemmaisdacopa">Favoritos</a>
+                <a href="#" class="itemmaisdacopa">Estádios</a>
+            </div>
+            <div class="maisdacopa">
+                <h3>Fique ligado</h3>
+                <a href="#" class="itemmaisdacopa">Saber mais</a>
+                <a href="#" class="itemmaisdacopa">Mais sobre</a>
+                <a href="#" class="itemmaisdacopa">Informações</a>
+                <a href="#" class="itemmaisdacopa">Favoritos</a>
+                <a href="#" class="itemmaisdacopa">Estádios</a>
+            </div>
+        </div>
+        <div class="direitos">
+            <p>Site criado por <strong>Luís Miguel</strong></p>  
+        </div>
+    </footer>
+    <script src="estatisticas.js"></script>
+</body>
+</html>
