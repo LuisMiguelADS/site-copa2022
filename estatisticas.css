@@ -913,7 +913,7 @@
 .artilharia {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding-bottom: 10px;
     display: none;
 }
 
@@ -924,6 +924,7 @@
     padding: 10px 20px;
     align-items: center;
     margin-bottom: 20px;
+    margin: 10px 5px;
 }
 
 .posicao-img-nome {
@@ -1019,7 +1020,7 @@
     }
 
     .grupo {
-        width: 100%;
+        width: 98%;
         margin: 5px;
     }
 
@@ -1062,5 +1063,14 @@
 
     .ultimas-5 {
         display: none;
+    }
+
+    .areadeespera {
+        height: 300px;
+        background-position: center;
+    } 
+
+    .areadeespera h3 {
+        font-size: 1em;
     }
 }
