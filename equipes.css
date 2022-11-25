@@ -110,12 +110,11 @@
     }
 
     .item-selecao {
-        width: 30%;
-        flex: ;
+        width: 46%;
     }
 
     .item-selecao h3 {
-        font-size: 0.8em;
+        font-size: 0.9em;
         text-align: center;
     }
 
@@ -125,7 +124,7 @@
     }
 
     .item-selecao p {
-        font-size: 0.7em;
+        font-size: 0.9em;
         text-align: center;
         width: 100%;
     }

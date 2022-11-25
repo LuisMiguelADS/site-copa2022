@@ -115,4 +115,9 @@
     .menu a:hover {
         background-color: #e1c39650;
     }
+
+    .grupo {
+        width: 100%;
+        margin: 0px 20px;
+    }
 }
