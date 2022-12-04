@@ -93,6 +93,7 @@
 
 .grupos {
     padding: 0px;
+    display: none;
 }
 
 .grupo {
@@ -111,13 +112,17 @@
     padding: 0px 3px;
 }
 
-.especificacoes > h4 {
-    padding-left: 30px;
-    letter-spacing: 0.5px;
+.especificacoes > h4:nth-child(9) {
+    width: 105px;
+    text-align: center;
+    padding: 0px;
 }
 
-.especificacoes > h4:nth-child(9) {
-    margin: 0px 25px 0px 5px;
+.especificacoes > h4 {
+    width: 34px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin: 0px 10px;
 }
 
 .item-grupo {
@@ -135,34 +140,13 @@
 .especificacoes-selecao {
     display: flex;
     padding: 0px 2px;
+    gap: 0px;
 }
 
-.especificacoes-selecao > h4:nth-child(2) {
-    padding-left: 34px;
-}
-
-.especificacoes-selecao > h4:nth-child(3) {
-    padding-left: 37px;
-}
-
-.especificacoes-selecao > h4:nth-child(4) {
-    padding-left: 32px;
-}
-
-.especificacoes-selecao > h4:nth-child(5) {
-    padding-left: 36px;
-}
-
-.especificacoes-selecao > h4:nth-child(6) {
-    padding-left: 44px;
-}
-
-.especificacoes-selecao > h4:nth-child(7) {
-    padding-left: 37px;
-}
-
-.especificacoes-selecao > h4:nth-child(8) {
-    padding-left: 29px;
+.especificacoes-selecao > h4 {
+    width: 34px;
+    text-align: center;
+    margin: 0px 10px;
 }
 
 .ultimas-5 {
@@ -170,7 +154,7 @@
     align-items: center;
     gap: 10px;
     padding: 0px 5px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .circulo {
@@ -188,15 +172,15 @@
 /* CATAR ---------------- */
 
 .circulo-catar:nth-child(1) {
-    background-color: x;
+    background-color: red;
 }
 
 .circulo-catar:nth-child(2) {
-    background-color: x;
+    background-color: red;
 }
 
 .circulo-catar:nth-child(3) {
-    background-color: x;
+    background-color: red;
 }
 
 .circulo-catar:nth-child(4) {
@@ -209,67 +193,67 @@
 
 /* EQUADOR ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-equador:nth-child(1) {
+    background-color: red;
+}
+
+.circulo-equador:nth-child(2) {
+    background-color: gray;
+}
+
+.circulo-equador:nth-child(3) {
+    background-color: green;
+}
+
+.circulo-equador:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(1) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(1) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(1) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(1) {
+.circulo-equador:nth-child(5) {
     background-color: x;
 }
 
 /* SENEGAL ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-senegal:nth-child(1) {
+    background-color: green;
+}
+
+.circulo-senegal:nth-child(2) {
+    background-color: green;
+}
+
+.circulo-senegal:nth-child(3) {
+    background-color: red;
+}
+
+.circulo-senegal:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-senegal:nth-child(5) {
     background-color: x;
 }
 
 /* HOLANDA ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-holanda:nth-child(1) {
+    background-color: green;
+}
+
+.circulo-holanda:nth-child(2) {
+    background-color: gray;
+}
+
+.circulo-holanda:nth-child(3) {
+    background-color: green;
+}
+
+.circulo-holanda:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-holanda:nth-child(5) {
     background-color: x;
 }
 
@@ -277,89 +261,89 @@
 
 /* INGLATERRA ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-inglaterra:nth-child(1) {
+    background-color: green;
+}
+
+.circulo-inglaterra:nth-child(2) {
+    background-color: gray;
+}
+
+.circulo-inglaterra:nth-child(3) {
+    background-color: green;
+}
+
+.circulo-inglaterra:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-inglaterra:nth-child(5) {
     background-color: x;
 }
 
 /* IRÃ ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-ira:nth-child(1) {
+    background-color: red;
+}
+
+.circulo-ira:nth-child(2) {
+    background-color: green;
+}
+
+.circulo-ira:nth-child(3) {
+    background-color: red;
+}
+
+.circulo-ira:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-ira:nth-child(5) {
     background-color: x;
 }
 
 /* ESTADOS UNIDOS ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-eua:nth-child(1) {
+    background-color: green;
+}
+
+.circulo-eua:nth-child(2) {
+    background-color: gray;
+}
+
+.circulo-eua:nth-child(3) {
+    background-color: gray;
+}
+
+.circulo-eua:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-eua:nth-child(5) {
     background-color: x;
 }
 
 /* PAÍS DE GALES ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-paisdegales:nth-child(1) {
+    background-color: red;
+}
+
+.circulo-paisdegales:nth-child(2) {
+    background-color: red;
+}
+
+.circulo-paisdegales:nth-child(3) {
+    background-color: gray;
+}
+
+.circulo-paisdegales:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(1) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(1) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(1) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(1) {
+.circulo-paisdegales:nth-child(5) {
     background-color: x;
 }
 
@@ -367,179 +351,179 @@
 
 /* ARGENTINA ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-argentina:nth-child(1) {
+    background-color: green;
+}
+
+.circulo-argentina:nth-child(2) {
+    background-color: green;
+}
+
+.circulo-argentina:nth-child(3) {
+    background-color: red;
+}
+
+.circulo-argentina:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-argentina:nth-child(5) {
     background-color: x;
 }
 
 /* ARÁBIA SAUDITA ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-arabiasaudita:nth-child(1) {
+    background-color: red;
+}
+
+.circulo-arabiasaudita:nth-child(2) {
+    background-color: red;
+}
+
+.circulo-arabiasaudita:nth-child(3) {
+    background-color: green;
+}
+
+.circulo-arabiasaudita:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-arabiasaudita:nth-child(5) {
     background-color: x;
 }
 
 /* MÉXICO ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-mexico:nth-child(1) {
+    background-color: green;
+}
+
+.circulo-mexico:nth-child(2) {
+    background-color: red;
+}
+
+.circulo-mexico:nth-child(3) {
+    background-color: gray;
+}
+
+.circulo-mexico:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-mexico:nth-child(5) {
     background-color: x;
 }
 
 /* POLÔNIA ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-polonia:nth-child(1) {
+    background-color: red;
+}
+
+.circulo-polonia:nth-child(2) {
+    background-color: green;
+}
+
+.circulo-polonia:nth-child(3) {
+    background-color: gray;
+}
+
+.circulo-polonia:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
+.circulo-polonia:nth-child(5) {
     background-color: x;
 }
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
-    background-color: x;
-}x
 
 /* GRUPO D -------------------------------------------- */
 
-/* FRNÇA ---------------- */
+/* FRANÇA ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-franca:nth-child(1) {
+    background-color: red;
+}
+
+.circulo-franca:nth-child(2) {
+    background-color: green;
+}
+
+.circulo-franca:nth-child(3) {
+    background-color: green;
+}
+
+.circulo-franca:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-franca:nth-child(5) {
     background-color: x;
 }
 
 /* DINAMARCA ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-dinamarca:nth-child(1) {
+    background-color: red;
+}
+
+.circulo-dinamarca:nth-child(2) {
+    background-color: red;
+}
+
+.circulo-dinamarca:nth-child(3) {
+    background-color: gray;
+}
+
+.circulo-dinamarca:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-dinamarca:nth-child(5) {
     background-color: x;
 }
 
 /* TUNÍSIA ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-tunisia:nth-child(1) {
+    background-color: green;
+}
+
+.circulo-tunisia:nth-child(2) {
+    background-color: red;
+}
+
+.circulo-tunisia:nth-child(3) {
+    background-color: gray;
+}
+
+.circulo-tunisia:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-tunisia:nth-child(5) {
     background-color: x;
 }
 
 /* AUSTRÁLIA ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-australia:nth-child(1) {
+    background-color: green;
+}
+
+.circulo-australia:nth-child(2) {
+    background-color: green;
+}
+
+.circulo-australia:nth-child(3) {
+    background-color: red;
+}
+
+.circulo-australia:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(1) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(1) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(1) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(1) {
+.circulo-australia:nth-child(5) {
     background-color: x;
 }
 
@@ -547,89 +531,89 @@
 
 /* ESPANHA ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-espanha:nth-child(1) {
+    background-color: red;
+}
+
+.circulo-espanha:nth-child(2) {
+    background-color: gray;
+}
+
+.circulo-espanha:nth-child(3) {
+    background-color: green;
+}
+
+.circulo-espanha:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-espanha:nth-child(5) {
     background-color: x;
 }
 
 /* ALEMANHA ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-alemanha:nth-child(1) {
+    background-color: green;
+}
+
+.circulo-alemanha:nth-child(2) {
+    background-color: gray;
+}
+
+.circulo-alemanha:nth-child(3) {
+    background-color: red;
+}
+
+.circulo-alemanha:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-alemanha:nth-child(5) {
     background-color: x;
 }
 
 /* JAPÃO ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-japao:nth-child(1) {
+    background-color: green;
+}
+
+.circulo-japao:nth-child(2) {
+    background-color: red;
+}
+
+.circulo-japao:nth-child(3) {
+    background-color: green;
+}
+
+.circulo-japao:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-japao:nth-child(5) {
     background-color: x;
 }
 
 /* COSTA RICA ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-costarica:nth-child(1) {
+    background-color: red;
+}
+
+.circulo-costarica:nth-child(2) {
+    background-color: green;
+}
+
+.circulo-costarica:nth-child(3) {
+    background-color: red;
+}
+
+.circulo-costarica:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-costarica:nth-child(5) {
     background-color: x;
 }
 
@@ -637,89 +621,89 @@
 
 /* BÉLGICA ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-belgica:nth-child(1) {
+    background-color: gray;
+}
+
+.circulo-belgica:nth-child(2) {
+    background-color: red;
+}
+
+.circulo-belgica:nth-child(3) {
+    background-color: green;
+}
+
+.circulo-belgica:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-belgica:nth-child(5) {
     background-color: x;
 }
 
 /* CANADÁ ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-canada:nth-child(1) {
+    background-color: red;
+}
+
+.circulo-canada:nth-child(2) {
+    background-color: red;
+}
+
+.circulo-canada:nth-child(3) {
+    background-color: red;
+}
+
+.circulo-canada:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-canada:nth-child(5) {
     background-color: x;
 }
 
 /* MARROCOS ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-marrocos:nth-child(1) {
+    background-color: green;
+}
+
+.circulo-marrocos:nth-child(2) {
+    background-color: green;
+}
+
+.circulo-marrocos:nth-child(3) {
+    background-color: gray;
+}
+
+.circulo-marrocos:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-marrocos:nth-child(5) {
     background-color: x;
 }
 
 /* CROÁCIA ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-croacia:nth-child(1) {
+    background-color: gray;
+}
+
+.circulo-croacia:nth-child(2) {
+    background-color: green;
+}
+
+.circulo-croacia:nth-child(3) {
+    background-color: gray;
+}
+
+.circulo-croacia:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-croacia:nth-child(5) {
     background-color: x;
 }
 
@@ -727,89 +711,89 @@
 
 /* BRASIL ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-brasil:nth-child(1) {
+    background-color: red;
+}
+
+.circulo-brasil:nth-child(2) {
+    background-color: green;
+}
+
+.circulo-brasil:nth-child(3) {
+    background-color: green;
+}
+
+.circulo-brasil:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-brasil:nth-child(5) {
     background-color: x;
 }
 
 /* SÉRVIA ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-servia:nth-child(1) {
+    background-color: red;
+}
+
+.circulo-servia:nth-child(2) {
+    background-color: gray;
+}
+
+.circulo-servia:nth-child(3) {
+    background-color: red;
+}
+
+.circulo-servia:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-servia:nth-child(5) {
     background-color: x;
 }
 
 /* SUÍÇA ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-suica:nth-child(1) {
+    background-color: green;
+}
+
+.circulo-suica:nth-child(2) {
+    background-color: red;
+}
+
+.circulo-suica:nth-child(3) {
+    background-color: green;
+}
+
+.circulo-suica:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-suica:nth-child(5) {
     background-color: x;
 }
 
 /* CAMARÕES ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-camaroes:nth-child(1) {
+    background-color: green;
+}
+
+.circulo-camaroes:nth-child(2) {
+    background-color: gray;
+}
+
+.circulo-camaroes:nth-child(3) {
+    background-color: red;
+}
+
+.circulo-camaroes:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-camaroes:nth-child(5) {
     background-color: x;
 }
 
@@ -817,89 +801,89 @@
 
 /* PORTUGAL ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-portugal:nth-child(1) {
+    background-color: red;
+}
+
+.circulo-portugal:nth-child(2) {
+    background-color: green;
+}
+
+.circulo-portugal:nth-child(3) {
+    background-color: green;
+}
+
+.circulo-portugal:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-portugal:nth-child(5) {
     background-color: x;
 }
 
 /* GANA ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-gana:nth-child(1) {
+    background-color: red;
+}
+
+.circulo-gana:nth-child(2) {
+    background-color: green;
+}
+
+.circulo-gana:nth-child(3) {
+    background-color: red;
+}
+
+.circulo-gana:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-gana:nth-child(5) {
     background-color: x;
 }
 
 /* URUGUAI ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-uruguai:nth-child(1) {
+    background-color: green;
+}
+
+.circulo-uruguai:nth-child(2) {
+    background-color: red;
+}
+
+.circulo-uruguai:nth-child(3) {
+    background-color: gray;
+}
+
+.circulo-uruguai:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-uruguai:nth-child(5) {
     background-color: x;
 }
 
 /* COREIA DO SUL ---------------- */
 
-.circulo-catar:nth-child(1) {
+.circulo-coreiadosul:nth-child(1) {
+    background-color: green;
+}
+
+.circulo-coreiadosul:nth-child(2) {
+    background-color: red;
+}
+
+.circulo-coreiadosul:nth-child(3) {
+    background-color: gray;
+}
+
+.circulo-coreiadosul:nth-child(4) {
     background-color: x;
 }
 
-.circulo-catar:nth-child(2) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(3) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(4) {
-    background-color: x;
-}
-
-.circulo-catar:nth-child(5) {
+.circulo-coreiadosul:nth-child(5) {
     background-color: x;
 }
 
