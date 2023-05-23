@@ -1,29 +1,3 @@
-let diasDaCopa = [];
-let dia20 = document.getElementById('dia-20-11')
-let dia21 = document.getElementById('dia-21-11')
-let dia22 = document.getElementById('dia-22-11')
-let dia23 = document.getElementById('dia-23-11')
-let dia24 = document.getElementById('dia-24-11')
-let dia25 = document.getElementById('dia-25-11')
-let dia26 = document.getElementById('dia-26-11')
-let dia27 = document.getElementById('dia-27-11')
-let dia28 = document.getElementById('dia-28-11')
-let dia29 = document.getElementById('dia-29-11')
-let dia30 = document.getElementById('dia-30-11')
-let dia01 = document.getElementById('dia-01-12')
-let dia02 = document.getElementById('dia-02-12')
-let dia03 = document.getElementById('dia-03-12')
-let dia04 = document.getElementById('dia-04-12')
-let dia05 = document.getElementById('dia-05-12')
-let dia06 = document.getElementById('dia-06-12')
-let dia09 = document.getElementById('dia-09-12')
-let dia10 = document.getElementById('dia-10-12')
-let dia13 = document.getElementById('dia-13-12')
-let dia14 = document.getElementById('dia-14-12')
-let dia17 = document.getElementById('dia-17-12')
-let dia18 = document.getElementById('dia-18-12')
-let espera = document.getElementById('espera')
-
 const elementos = [
     'dia-20-11', 'dia-21-11', 'dia-22-11', 'dia-23-11', 'dia-24-11',
     'dia-25-11', 'dia-26-11', 'dia-27-11', 'dia-28-11', 'dia-29-11',
@@ -42,609 +16,106 @@ function ocultarElemento(elemento) {
     elementoHTML.style.display = 'none';
 }
 
-function visivel_20_11() {
-    for (let x = 0; x <= elementos.length; x++) {
-        if (elementos(x) == 'dia-20-11') {
-            exibirElemento(elementos(x))
-        } else {
-            ocultarElemento(elementos(x))
-        }
+function exibirElementoPorData(data) {
+    for (let x = 0; x < elementos.length; x++) {
+      if (elementos[x] === data) {
+        exibirElemento(elementos[x]);
+      } else {
+        ocultarElemento(elementos[x]);
+      }
     }
 }
 
-function visivel_21_11() {
-
-    dia21.style.display = 'block'
+document.getElementById('visivel_20_11').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none'
-}
-
-function visivel_22_11() {
-    dia22.style.display = 'block'
+    exibirElementoPorData('dia-20-11');
+})
+document.getElementById('visivel_21_11').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none' 
-}
-
-function visivel_23_11() {
-    dia23.style.display = 'block'
+    exibirElementoPorData('dia-21-11');
+})
+document.getElementById('visivel_22_11').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none'
-}
-
-function visivel_24_11() {
-    dia24.style.display = 'block'
+    exibirElementoPorData('dia-22-11');
+})
+document.getElementById('visivel_23_11').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none'
-}
-
-function visivel_25_11() {
-    dia25.style.display = 'block'
+    exibirElementoPorData('dia-23-11');
+})
+document.getElementById('visivel_24_11').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none'
-}
-
-function visivel_26_11() {
-    dia26.style.display = 'block'
+    exibirElementoPorData('dia-24-11');
+})
+document.getElementById('visivel_25_11').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none'
-}
-
-function visivel_27_11() {
-    dia27.style.display = 'block'
+    exibirElementoPorData('dia-25-11');
+})
+document.getElementById('visivel_26_11').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none'
-}
-
-function visivel_28_11() {
-    dia28.style.display = 'block'
+    exibirElementoPorData('dia-26-11');
+})
+document.getElementById('visivel_27_11').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none'
-}
-
-function visivel_29_11() {
-    dia29.style.display = 'block'
+    exibirElementoPorData('dia-27-11');
+})
+document.getElementById('visivel_28_11').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none'
-}
-
-function visivel_30_11() {
-    dia30.style.display = 'block'
+    exibirElementoPorData('dia-28-11');
+})
+document.getElementById('visivel_29_11').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none'
-}
-
-function visivel_01_12() {
-    dia01.style.display = 'block'
+    exibirElementoPorData('dia-29-11');
+})
+document.getElementById('visivel_30_11').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none'
-}
-
-
-function visivel_02_12() {
-    dia02.style.display = 'block'
+    exibirElementoPorData('dia-30-11');
+})
+document.getElementById('visivel_01_12').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none'
-}
-
-function visivel_03_12() {
-    dia03.style.display = 'block'
+    exibirElementoPorData('dia-01-12');
+})
+document.getElementById('visivel_02_12').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none'
-}
-
-function visivel_04_12() {
-    dia04.style.display = 'block'
+    exibirElementoPorData('dia-02-12');
+})
+document.getElementById('visivel_03_12').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none'
-}
-
-function visivel_05_12() {
-    dia05.style.display = 'block'
+    exibirElementoPorData('dia-03-12');
+})
+document.getElementById('visivel_04_12').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none'
-}
-
-function visivel_06_12() {
-    dia06.style.display = 'block'
+    exibirElementoPorData('dia-04-12');
+})
+document.getElementById('visivel_05_12').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none'
-}
-
-function visivel_09_12() {
-    dia09.style.display = 'block'
+    exibirElementoPorData('dia-05-12');
+})
+document.getElementById('visivel_06_12').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none'
-}
-
-function visivel_10_12() {
-    dia10.style.display = 'block'
+    exibirElementoPorData('dia-06-12');
+})
+document.getElementById('visivel_09_12').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none'
-}
-
-function visivel_13_12() {
-    dia13.style.display = 'block'
+    exibirElementoPorData('dia-09-12');
+})
+document.getElementById('visivel_10_12').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none'
-}
-
-function visivel_14_12() {
-    dia14.style.display = 'block'
+    exibirElementoPorData('dia-10-12');
+})
+document.getElementById('visivel_13_12').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none'
-}
-
-function visivel_17_12() {
-    dia17.style.display = 'block'
+    exibirElementoPorData('dia-13-12');
+})
+document.getElementById('visivel_14_12').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia18.style.display = 'none'
-}
-
-function visivel_18_12() {
-    dia18.style.display = 'block'
+    exibirElementoPorData('dia-14-12');
+})
+document.getElementById('visivel_17_12').addEventListener('click', function() {
     espera.style.display = 'none'
-    dia20.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-}
+    exibirElementoPorData('dia-17-12');
+})
+document.getElementById('visivel_18_12').addEventListener('click', function() {
+    espera.style.display = 'none'
+    exibirElementoPorData('dia-18-12');
+})
 
