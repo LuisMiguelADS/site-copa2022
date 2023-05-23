@@ -1,3 +1,4 @@
+let diasDaCopa = [];
 let dia20 = document.getElementById('dia-20-11')
 let dia21 = document.getElementById('dia-21-11')
 let dia22 = document.getElementById('dia-22-11')
@@ -23,32 +24,32 @@ let dia17 = document.getElementById('dia-17-12')
 let dia18 = document.getElementById('dia-18-12')
 let espera = document.getElementById('espera')
 
+const elementos = [
+    'dia-20-11', 'dia-21-11', 'dia-22-11', 'dia-23-11', 'dia-24-11',
+    'dia-25-11', 'dia-26-11', 'dia-27-11', 'dia-28-11', 'dia-29-11',
+    'dia-30-11', 'dia-01-12', 'dia-02-12', 'dia-03-12', 'dia-04-12',
+    'dia-05-12', 'dia-06-12', 'dia-09-12', 'dia-10-12', 'dia-13-12',
+    'dia-14-12', 'dia-17-12', 'dia-18-12'
+  ];
+
+function exibirElemento(elemento) {
+    const elementoHTML = document.getElementById(elemento);
+    elementoHTML.style.display = 'block';
+}
+
+function ocultarElemento(elemento) {
+    const elementoHTML = document.getElementById(elemento);
+    elementoHTML.style.display = 'none';
+}
 
 function visivel_20_11() {
-    dia20.style.display = 'block'
-    espera.style.display = 'none'
-    dia21.style.display = 'none'
-    dia22.style.display = 'none'
-    dia23.style.display = 'none'
-    dia24.style.display = 'none'
-    dia25.style.display = 'none'
-    dia26.style.display = 'none'
-    dia27.style.display = 'none'
-    dia28.style.display = 'none'
-    dia29.style.display = 'none'
-    dia30.style.display = 'none'
-    dia01.style.display = 'none'
-    dia02.style.display = 'none'
-    dia03.style.display = 'none'
-    dia04.style.display = 'none'
-    dia05.style.display = 'none'
-    dia06.style.display = 'none'
-    dia09.style.display = 'none'
-    dia10.style.display = 'none'
-    dia13.style.display = 'none'
-    dia14.style.display = 'none'
-    dia17.style.display = 'none'
-    dia18.style.display = 'none'
+    for (let x = 0; x <= elementos.length; x++) {
+        if (elementos(x) == 'dia-20-11') {
+            exibirElemento(elementos(x))
+        } else {
+            ocultarElemento(elementos(x))
+        }
+    }
 }
 
 function visivel_21_11() {
