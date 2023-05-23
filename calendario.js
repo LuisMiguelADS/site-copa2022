@@ -26,96 +26,10 @@ function exibirElementoPorData(data) {
     }
 }
 
-document.getElementById('visivel_20_11').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-20-11');
-})
-document.getElementById('visivel_21_11').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-21-11');
-})
-document.getElementById('visivel_22_11').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-22-11');
-})
-document.getElementById('visivel_23_11').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-23-11');
-})
-document.getElementById('visivel_24_11').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-24-11');
-})
-document.getElementById('visivel_25_11').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-25-11');
-})
-document.getElementById('visivel_26_11').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-26-11');
-})
-document.getElementById('visivel_27_11').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-27-11');
-})
-document.getElementById('visivel_28_11').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-28-11');
-})
-document.getElementById('visivel_29_11').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-29-11');
-})
-document.getElementById('visivel_30_11').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-30-11');
-})
-document.getElementById('visivel_01_12').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-01-12');
-})
-document.getElementById('visivel_02_12').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-02-12');
-})
-document.getElementById('visivel_03_12').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-03-12');
-})
-document.getElementById('visivel_04_12').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-04-12');
-})
-document.getElementById('visivel_05_12').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-05-12');
-})
-document.getElementById('visivel_06_12').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-06-12');
-})
-document.getElementById('visivel_09_12').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-09-12');
-})
-document.getElementById('visivel_10_12').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-10-12');
-})
-document.getElementById('visivel_13_12').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-13-12');
-})
-document.getElementById('visivel_14_12').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-14-12');
-})
-document.getElementById('visivel_17_12').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-17-12');
-})
-document.getElementById('visivel_18_12').addEventListener('click', function() {
-    espera.style.display = 'none'
-    exibirElementoPorData('dia-18-12');
-})
+document.addEventListener('click', function(event) {
+    if (event.target.classList.contains('visivel-btn')) {
+      espera.style.display = 'none';
+      exibirElementoPorData(event.target.dataset.data);
+    }
+});
 
